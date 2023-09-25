@@ -1,0 +1,31 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Creating Documents", "1 - Creating Documents\1 - Creating Documents.csproj", "{C83B84CF-6623-4CBD-9ADA-6D7DE8EDE2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Refactoring to Factory Method", "2 - Refactoring to Factory Method\2 - Refactoring to Factory Method.csproj", "{09874C91-86E6-422C-BD62-3C5E4DEADB21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83B84CF-6623-4CBD-9ADA-6D7DE8EDE2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83B84CF-6623-4CBD-9ADA-6D7DE8EDE2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83B84CF-6623-4CBD-9ADA-6D7DE8EDE2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83B84CF-6623-4CBD-9ADA-6D7DE8EDE2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09874C91-86E6-422C-BD62-3C5E4DEADB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09874C91-86E6-422C-BD62-3C5E4DEADB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09874C91-86E6-422C-BD62-3C5E4DEADB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09874C91-86E6-422C-BD62-3C5E4DEADB21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEC37516-F4A3-4975-A745-4D24403A7E24}
+	EndGlobalSection
+EndGlobal
