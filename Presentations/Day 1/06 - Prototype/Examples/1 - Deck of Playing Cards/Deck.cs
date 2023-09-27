@@ -4,7 +4,7 @@ namespace Wincubate.PrototypeExamples;
 
 class Deck : IEnumerable<Card>
 {
-    private List<Card> _cards;
+    private readonly List<Card> _cards;
 
     #region IEnumerable Members
 
