@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+
+		<IsPackable>false</IsPackable>
+
+		<RootNamespace>Wincubate.AdapterExamples.Library.Test</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>latest</LangVersion>
+		<TreatWarningsAsErrors>True</TreatWarningsAsErrors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.3.0" />
+		<PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
+		<PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Library\Library.csproj" />
+	</ItemGroup>
+
+</Project>
